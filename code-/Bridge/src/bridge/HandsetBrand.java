@@ -1,0 +1,44 @@
+package bridge;
+//手机品牌
+public  abstract class HandsetBrand
+{
+    protected HandsetSoft soft;
+
+    //设置手机软件
+    public void SetHandsetSoft(HandsetSoft soft)
+    {
+        this.soft = soft;
+    }
+    //运行
+    public abstract void Run();
+    
+
+}
+
+//手机品牌N
+class HandsetBrandN extends HandsetBrand
+{
+    public  void Run()
+    {
+        soft.Run();
+    }
+}
+
+//手机品牌M
+class HandsetBrandM extends HandsetBrand
+{
+    public  void Run()
+    {
+        soft.Run();
+    }
+}
+
+//手机品牌S
+class HandsetBrandS extends HandsetBrand
+{
+    public  void Run()
+    {
+        soft.Run();
+    }
+}
+

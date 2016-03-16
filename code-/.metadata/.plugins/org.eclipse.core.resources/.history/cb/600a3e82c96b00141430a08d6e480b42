@@ -1,0 +1,5 @@
+package singleInstance;
+
+public class Singleton {
+
+}
